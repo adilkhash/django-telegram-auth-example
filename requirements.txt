@@ -1,0 +1,6 @@
+Django==2.0.3
+django-environ==0.4.4
+
+# my social-auth-core fork
+https://github.com/adilkhash/social-core/archive/master.zip
+social-auth-app-django==2.1.0

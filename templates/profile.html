@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello {{ user }}}</title>
+</head>
+<body>
+
+<h1>Hi, {{ user.first_name }}!</h1>
+<p>Meta:</p>
+
+<ul>
+    {% for associated in backends.associated %}
+        <li>ID: {{ associated.uid }}</li>
+        <li>Provider: {{ associated.provider }}</li>
+        <li>Extra: {{ associated.extra_data }}</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
